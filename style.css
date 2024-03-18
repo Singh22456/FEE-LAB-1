@@ -1,0 +1,1257 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 1290px;
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; /* 1600px / 1600px = 100% */
+}
+.psdfreebies-com {
+  min-height: 4400px;
+  position: relative;
+  z-index: 0;
+  background: #000000 center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.top-background {
+  min-height: 1384px;
+  overflow: hidden;
+  padding: 15px 0 0;
+  position: relative;
+  width: 100%; /* 1600px / 1600px = 100% */
+  z-index: 10;
+  background: url(images/rectangle_2_2.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 137px;
+  position: relative;
+  width: 1290px;
+}
+.wrapper-3 {
+  height: 34px;
+  position: relative;
+  width: 93px;
+}
+.sportx {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -46.5px;
+}
+.rectangle-5-copy {
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 14px;
+  width: 62px;
+  background: #9cf801;
+  margin-left: -45.5px;
+}
+.rectangle-5 {
+  height: 2px;
+  margin: 4px 0 0;
+  position: relative;
+  width: 92px;
+  background: #9cf801;
+}
+.nvaigation {
+  margin: -13px auto 0;
+  position: relative;
+  width: 99.75%; /* 1596px / 1600px = 99.75% */
+}
+.wrapper-2 {
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+ /* Change width to 100% */
+}
+.text {
+  left: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  color: white;
+  font-size: large;
+  margin-left: -139px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Background color of the navbar */
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+
+.text-2 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -68px;
+}
+.text-3 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: 44px;
+}
+.text-4 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: 184px;
+}
+.text-5 {
+  height: 2px;
+  margin: 47px auto 0;
+  position: relative;
+  width: 100%; /* 1596px / 1596px = 100% */
+  background: url(images/image_4.png) no-repeat center 0;
+  background-position: center top;
+}
+.l-constrained {
+  margin: 78px auto 0;
+  padding: 0 87px;
+  position: relative;
+  width: 1290px;
+}
+.main-banner-slide {
+  position: relative;
+}
+.col-4 {
+  float: left;
+  margin: 63px 32px 0 0;
+  position: relative;
+  width: 443px;
+}
+.text-6 {
+  display: block;
+  margin: 0 0 0 4px;
+  position: relative;
+}
+.text-7 {
+  display: block;
+  margin: 46px 0 0;
+  position: relative;
+}
+.rectangle-7-copy-4-holder {
+  margin: 47px 0 0;
+  padding: 19px 0;
+  position: relative;
+  width: 199px;
+  background: url(images/rectangle_7_copy_4.png) no-repeat;
+}
+.text-8 {
+  display: block;
+  margin: 0 auto;
+}
+.col-7 {
+  float: left;
+  position: relative;
+  width: 583px;
+}
+.wrapper-10 {
+  position: relative;
+  width: 583px;
+  background: url(images/race-img1_copy.png) no-repeat 48px 0;
+}
+.race-img1 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 49px;
+}
+.row-9 {
+  margin: 96px 17px 0;
+  position: relative;
+}
+.rectangle-7-copy-5 {
+  float: left;
+  margin: 0 8px 0 0;
+}
+.slider {
+  float: left;
+  position: relative;
+  width: 79px;
+}
+.slider > * {
+  float: left;
+  margin: 0 6.3px 0 0;
+}
+.slider > *:last-child {
+  margin-right: 0 !important;
+}
+.servies-showcase {
+  margin: 100px 0 0;
+  position: relative;
+}
+.col-2 {
+  float: left;
+  margin: 0 41px 0 0;
+  position: relative;
+  width: 523px;
+}
+.serives01 {
+  height: 266px;
+  padding: 44px 40px 32px;
+  position: relative;
+  background: url(images/rectangle_3.jpg) no-repeat;
+}
+.text-9 {
+  display: block;
+  position: relative;
+}
+.text-10 {
+  display: block;
+  margin: 36px 0 0;
+  position: relative;
+}
+.row-4 {
+  margin: 32px 0 0;
+  position: relative;
+}
+.more {
+  float: left;
+  margin: 0 11px 0 0;
+}
+.rectangle-11 {
+  float: left;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+   zoom:20%;
+    -moz-transform: scale(1.0); 
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0); 
+  transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+   zoom: 95%;
+   -moz-transform: scale(1.0); 
+   -webkit-transform: scale(1.0);
+   -o-transform: scale(1.0); 
+   transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  .text {
+    left: 51.5%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: 15px;
+    margin-left: -139px;
+}
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1360px) and (max-width: 1440px) {
+  body {
+    zoom: 80%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  .text {
+    left: 51%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: 16px;
+    margin-left: -139px;
+}
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1260px) and (max-width: 1360px) {
+  body {
+    zoom: 83%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1160px) and (max-width: 1260px) {
+  body {
+    zoom: 80%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  .text {
+    left: 51%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: 16px;
+    margin-left: -139px;
+}
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1060px) and (max-width: 1160px) {
+  body {
+    zoom: 70%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1060px) {
+  body {
+    zoom: 65%;
+    -moz-transform: scale(1.0); 
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0); 
+  transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 960px) {
+  body {
+    zoom: 63%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  .text {
+    left: 51%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: 16px;
+    margin-left: -139px;
+}
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 860px) {
+  body {
+    zoom: 55%;
+    -moz-transform: scale(1.0); 
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0); 
+  transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  .text {
+    left: 51%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: 16px;
+    margin-left: -139px;
+}
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 660px) and (max-width: 768px) {
+  body {
+    zoom: 50%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 660px) {
+  body {
+    zoom: 42%;
+    -moz-transform: scale(1.0); 
+    -webkit-transform: scale(1.0);
+    -o-transform: scale(1.0); 
+    transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width:490px) and (max-width: 560px) {
+  body {
+    zoom: 35%;
+    -moz-transform: scale(1.0); 
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0); 
+  transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media screen and (min-width:320px) and (max-width: 490px) {
+  body {
+    zoom: 25%;
+    -moz-transform: scale(1.0); 
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0); 
+  transform: scale(1.0);
+    transform-origin: 0 0;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+  }
+}
+.servies03 {
+  height: 266px;
+  margin: 36px 0 0;
+  padding: 46px 51px 22px;
+  position: relative;
+  background: url(images/rectangle_3_copy_2_2.jpg) no-repeat;
+}
+.text-11 {
+  display: block;
+  position: relative;
+}
+.text-12 {
+  display: block;
+  margin: 36px 0 0;
+  position: relative;
+}
+.more-2 {
+  display: block;
+  margin: 41px 0 0 7px;
+  position: relative;
+}
+.col-3 {
+  float: left;
+  position: relative;
+  width: 523px;
+}
+.servies02 {
+  height: 266px;
+  padding: 44px 45px 33px;
+  position: relative;
+  background: url(images/rectangle_3_copy.jpg) no-repeat;
+}
+.text-13 {
+  display: block;
+  position: relative;
+}
+.text-14 {
+  display: block;
+  margin: 36px 0 0;
+  position: relative;
+}
+.more-3 {
+  display: block;
+  margin: 32px 0 0;
+  position: relative;
+}
+.servies04 {
+  height: 266px;
+  margin: 36px 0 0;
+  padding: 46px 45px 33px;
+  position: relative;
+  background: url(images/rectangle_3_copy_2.jpg) no-repeat;
+}
+.text-15 {
+  display: block;
+  position: relative;
+}
+.text-16 {
+  display: block;
+  margin: 36px 0 0;
+  position: relative;
+}
+.more-4 {
+  display: block;
+  margin: 30px 0 0;
+  position: relative;
+}
+.background {
+  height: 3066px;
+  margin: -482px 0 0;
+  position: relative;
+  width: 100%; /* 1600px / 1600px = 100% */
+  z-index: 4;
+}
+.rectangle-2-copy-3 {
+  left: 0;
+  position: absolute;
+  top: 1728px;
+  width: 100%; /* 1600px / 1600px = 100% */
+}
+.rectangle-2-copy-2 {
+  left: 0;
+  position: absolute;
+  top: 1297px;
+  width: 100%; /* 1600px / 1600px = 100% */
+}
+.rectangle-2-copy {
+  left: 0;
+  position: absolute;
+  top: 616px;
+  width: 100%; /* 1600px / 1600px = 100% */
+}
+.rectangle-2-holder {
+  left: 0;
+  padding: 628px 0 259px;
+  position: absolute;
+  top: 0;
+  width: 100%; /* 1600px / 1600px = 100% */
+  background: url(images/rectangle_2.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.product-showcase {
+  margin: 0 auto;
+  padding: 0 89px;
+  position: relative;
+  width: 1290px;
+}
+.main-heading {
+  margin: 0 auto;
+  position: relative;
+  width: 911px;
+}
+.text-17 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 19.5px;
+}
+.text-18 {
+  display: block;
+  margin: 43px 0 0;
+}
+.row-5 {
+  margin: 77px auto 0;
+  position: relative;
+  width: 1085px;
+}
+.row-5 > * {
+  float: left;
+  margin: 0 20.3px 0 0;
+}
+.row-5 > *:last-child {
+  margin-right: 0 !important;
+}
+.proudoct1 {
+  min-height: 315px;
+  padding: 12px 0 15px;
+  position: relative;
+  width: 348px;
+  background: #ffffff;
+}
+.rectangle-6 {
+  display: block;
+  margin: 0 auto;
+  width: 325px;
+}
+.row-6 {
+  display: table;
+  margin: 19px auto 0;
+  position: relative;
+}
+.blouse {
+  float: left;
+  margin: 2px 196px 0 0;
+}
+.text-19 {
+  float: left;
+}
+.product2 {
+  min-height: 315px;
+  padding: 12px 11px 15px;
+  position: relative;
+  width: 348px;
+  background: #ffffff;
+}
+.rectangle-6-copy-holder {
+  padding: 14px 0 13px;
+  position: relative;
+  background: #dde6e8;
+}
+.layer-2 {
+  display: block;
+  margin: 0 auto;
+}
+.row-7 {
+  margin: 19px 0 0 22px;
+  position: relative;
+}
+.text-20 {
+  float: left;
+  margin: 2px 196px 0 0;
+}
+.text-21 {
+  float: left;
+}
+.product3 {
+  min-height: 315px;
+  padding: 12px 0 15px;
+  position: relative;
+  width: 348px;
+  background: #ffffff;
+}
+.rectangle-6-copy-2-holder {
+  margin: 0 auto;
+  padding: 25px 0 23px;
+  position: relative;
+  width: 325px;
+  background: #dde6e8;
+}
+.sample_1 {
+  display: block;
+  margin: 0 auto;
+}
+.row-8 {
+  display: table;
+  margin: 19px auto 0;
+  position: relative;
+}
+.text-22 {
+  float: left;
+  margin: 2px 196px 0 0;
+}
+.text-23 {
+  float: left;
+}
+.newsletter {
+  left: 50%;
+  position: absolute;
+  top: 2677px;
+  width: 1031px;
+  margin-left: -553px;
+}
+.text-24 {
+  float: left;
+  margin: 85px 95px 0 0;
+}
+.col-6 {
+  float: left;
+  position: relative;
+  width: 537px;
+}
+.rectangle-9 {
+  height: 54px;
+  margin: 0 0 0 35px;
+  position: relative;
+  width: 61px;
+  background: #212121;
+}
+.wrapper-9 {
+  height: 53px;
+  margin: 38px 0 0;
+  position: relative;
+  width: 537px;
+}
+.rectangle-7-holder {
+  left: 50%;
+  padding: 21px 48px 18px;
+  position: absolute;
+
+  width: 489px;
+  background: url(images/rectangle_7.png) no-repeat;
+  margin-left: -268.5px;
+}
+.text-25 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  right: 140px;
+  background-color: #21212100;
+}
+.rectangle-7-copy-holder {
+  left: 50%;
+  padding: 19px 0;
+  position: absolute;
+  top: 0;
+  width: 169px;
+  background: url(images/rectangle_7_copy.png) no-repeat;
+  margin-left: 99.5px;
+}
+.submit {
+  display: block;
+  margin: 0 auto;
+}
+.main-feature2 {
+  left: 50%;
+  position: absolute;
+  top: 1898px;
+  width: 1131px;
+  margin-left: -645px;
+}
+.home_sport_sportstar {
+  float: left;
+  margin: 0 111px 0 0;
+}
+.col {
+  float: left;
+  margin: 173px 0 0;
+  position: relative;
+  width: 505px;
+}
+.text-26 {
+  display: block;
+  position: relative;
+}
+.text-27 {
+  display: block;
+  left: 3.5px;
+  margin: 57px auto 0;
+  position: relative;
+}
+.rectangle-7-copy-2-holder {
+  margin: 58px 0 0 7px;
+  padding: 19px 0;
+  position: relative;
+  width: 169px;
+  background: url(images/rectangle_7_copy_2.png) no-repeat;
+}
+.know {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 5.5px;
+}
+.main-feature1 {
+  height: 589px;
+  left: 50%;
+  position: absolute;
+  top: 1217px;
+  width: 1092px;
+  margin-left: -561px;
+}
+.text-28 {
+  left: 50%;
+  position: absolute;
+  top: 169px;
+  margin-left: -546px;
+}
+.banner-error-1024x685 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -287px;
+}
+.text-29 {
+  left: 50%;
+  position: absolute;
+  top: 341px;
+  margin-left: -536px;
+}
+.rectangle-7-copy-3-holder {
+  left: 50%;
+  padding: 19px 0;
+  position: absolute;
+  top: 452px;
+  width: 169px;
+  background: url(images/rectangle_7_copy_3.png) no-repeat;
+  margin-left: -541px;
+}
+.know-2 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 5.5px;
+}
+.footer {
+  margin: 50px 0 0;
+  position: relative;
+  z-index: 19;
+}
+.row-3 {
+  margin: 0 auto;
+  padding: 0 89px;
+  position: relative;
+  width: 1290px;
+}
+.col-9 {
+  float: left;
+  margin: 5px 0 0;
+  position: relative;
+  width: 325px;
+}
+.wrapper-11 {
+  height: 73px;
+  position: relative;
+  width: 195px;
+}
+.sportx-2 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -97.5px;
+}
+.rectangle-5-copy-2 {
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  top: 30px;
+  width: 131px;
+  background: #fcff00;
+  margin-left: -96.5px;
+}
+.rectangle-5-2 {
+  height: 4px;
+  margin: 8px 0 0;
+  position: relative;
+  width: 194px;
+  background: #fcff00;
+}
+.text-30 {
+  display: block;
+  color: white;
+  margin: 43px 0 0;
+  position: relative;
+}
+.text-31 {
+  float: left;
+  color: white;
+  font-size: 15px;
+  margin: 1px 0 0 88px;
+} 
+.text-32 {
+  float: left;
+  margin: 0 0 0 100px;
+  color: white;
+  font-size: 15px;
+}
+.text-33 {
+  float: left;
+  margin: 1px 0 0 89px;
+  color: white;
+  font-size: 15px;
+}
+.text-34 {
+  float: left;
+  margin: 1px 0 0 112px;
+  color: white;
+  font-size: 15px;
+}
+.rectangle-8-holder {
+  margin: 95px auto 0;
+  padding: 29px 0 25px;
+  position: relative;
+  background: #111111;
+}
+.text-35 {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.menu-btn {
+  display: none; /* Show menu button */
+}
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: row;
+    
+  }
+
+ 
+  .text-4,.text-3,.text-2{
+    display: none;
+  }
+
+  .menu-btn {
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-right: 70px; /* Adjusted margin */
+    display: block;
+    position: relative;
+  }
+  .servies-showcase {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.main-feature1 {
+  height: 589px;
+  left: 50%;
+  position: absolute;
+  top: 1700px;
+  width: 1092px;
+  margin-left: -561px;
+} 
+ 
+.main-feature2 {
+  left: 50%;
+  position: absolute;
+  top: 2250px;
+  width: 1131px;
+  margin-left: -645px;
+}
+.newsletter {
+  left: 50%;
+  position: absolute;
+  top: 2850px;
+  width: 1031px;
+  margin-left: -553px;
+}
+.row-3 {
+  margin: 0 auto;
+  padding: 0 89px;
+  position: relative;
+  width: 1290px;
+  display: flex;
+  flex-direction: column;
+}
+.rectangle-2-holder {
+  left: 0;
+  padding: 628px 0 259px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: url(images/rectangle_2.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.rectangle-2-copy-3 {
+  left: 0;
+  position: absolute;
+  top: 1928px;
+  width: 100%;
+}
+.rectangle-2-copy-2 {
+  left: 0;
+  position: absolute;
+  top: 1550px;
+  width: 100%;
+}
+.product2,.product3 {
+  margin-top: 30px;
+  min-height: 315px;
+  padding: 12px 11px 15px;
+  position: relative;
+  width: 348px;
+  background: #ffffff;
+}
+.row-5 {
+  margin: 77px auto 0;
+  position: relative;
+  width: 1085px;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.col-3 {
+  float:none;
+  padding-top: 50px;
+  margin-right: 50px;
+  position: relative;
+  width: 523px;
+}
+  nav ul.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    right: 20px; /* Adjusted right position */
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .text {
+    left: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    color: white;
+    font-size: large;
+    margin-left: -130px;
+}
+  nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .text-30 {
+    display: block;
+    color: white;
+    margin: 20px 0 0;
+    width: 80%;
+    height: 100%;
+    font-size: x-large;
+    position: relative;
+  }
+  .col-9 {
+    float: left;
+    margin: 5px 0 0;
+    margin-bottom: 50px;
+    position: relative;
+ width: 100%;
+}
+.text-31 {
+  float: left;
+  color: #ffffff;
+  font-size: large;
+  margin: 1px 0 0 88px;
+} 
+.text-32 {
+  float: left;
+  margin: 0 0 0 150px;
+  color: white;
+  font-size:large;
+}
+.text-33 {
+  float: left;
+  margin: 1px 0 0 170px;
+  color: white;
+  font-size:large;
+}
+.text-34 {
+  float: left;
+  margin: 1px 0 0 162px;
+  color: white;
+  font-size:large;
+}
+.sportx {
+  left: 50%;
+  height: 50px;
+  width: 93px;
+  position: absolute;
+  top: 0;
+  margin-left: -46.5px;
+}
+.wrapper-3 {
+  height: 50px;
+  position: relative;
+  width: 93px;
+}
+}
